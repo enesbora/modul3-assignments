@@ -6,14 +6,13 @@
  */
 
 
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import FishList from './components/fishList'
 import fishList from './data/fishFarm'
-function App() {
+const App = () => {
   return (
     <div className="App">
-        <FishList list ={fishList}/>
+        <FishList fishList ={fishList}/>
     </div>
   );
 }

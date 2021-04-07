@@ -4,10 +4,12 @@
  import {useState} from 'react'
  import Fish from './fish'
  
- export default function FishList(props) {
-   const [fishList] = useState(props.list)
+ const FishList = (props) => {
+   const [fishList] = useState(props.fishList)
  return(
     fishList.map((fish,index)=>
    <Fish  key={index} fish={fish} index={index}/>
  ))
  }
+
+ export default FishList;

@@ -2,7 +2,7 @@
  * Tablo baslilarini ve her bir balik türü bir tablo satiri olacak sikilde tablo olusturuyoruz 
  */
  import Table from 'react-bootstrap/Table';
- export default function Item(props) {
+ const Fish = (props) => {
      return(
      <Table striped bordered hover variant="dark">
    <thead>
@@ -34,3 +34,4 @@
  );
  }
  
+ export default Fish;
