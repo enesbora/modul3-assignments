@@ -7,6 +7,9 @@ import "./Question.css";
 
 const QuizApp = () => {
   const numberOfQuestions = 10;
+/**
+ * bu kisimda öncelikli olarak baslangiic degerleri satatuse kaydettim.
+ */
   const [questions] = useState(QuestionList);
   const [step, setStep] = useState(1);
   const [score, setScore] = useState(0);
@@ -18,6 +21,9 @@ const QuizApp = () => {
     return Math.floor(Math.random() * questions.length);
   };
 
+/**
+ * Cevabin dogru olup olmadigini kontorol eden fonksiyon
+ */
   const checkAnswer = (e) => {
     if (e.target.className === e.target.innerHTML) {
       setScore(score + 10);
@@ -27,6 +33,11 @@ const QuizApp = () => {
       setStep(step + 1);
     }
   };
+
+/**
+ * Quizin bitip bitmedigini burada kontrol ediyoruz.
+ */
+
   if (step <= numberOfQuestions) {
     return (
       <div>
