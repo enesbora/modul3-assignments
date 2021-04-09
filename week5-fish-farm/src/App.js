@@ -6,10 +6,13 @@
  */
 
 
-
+import {useState} from 'react'
 import FishList from './components/fishList'
-import fishList from './data/fishFarm'
+import dbFishList from './data/fishFarm'
 const App = () => {
+
+  const [fishList] = useState(dbFishList);
+
   return (
     <div className="App">
         <FishList fishList ={fishList}/>
