@@ -12,7 +12,7 @@ import dbFishList from './data/fishFarm'
 const App = () => {
 
   const [fishList] = useState(dbFishList);
-
+// degisebilecek datalara müdahele edebilmek icin datalari state'e alip kullaniyoruz
   return (
     <div className="App">
         <FishList fishList ={fishList}/>
