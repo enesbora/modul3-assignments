@@ -71,5 +71,29 @@
         "correctAnswer": "calismak",
         "answer" :["anlamak","yakinmak", "düsünmek"]
   
+      },
+      {
+        "question": "rennen",
+        "correctAnswer": "kosmak",
+        "answer" :["dusmek","yanmak", "almak"]
+  
+      },
+      {
+        "question": "sprechen",
+        "correctAnswer": "konusmak",
+        "answer" :["yazmak","okumak", "dinlemek"]
+  
+      },
+      {
+        "question": "schreiben",
+        "correctAnswer": "yazmak",
+        "answer" :["konusmak","tirmanmak", "oynamak"]
+  
+      },
+      {
+        "question": "denken",
+        "correctAnswer": "düsünmek",
+        "answer" :["tesekkür etmek","beklemek", "sormak"]
+  
       }
   ]

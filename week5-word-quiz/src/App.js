@@ -1,15 +1,14 @@
-
-import './App.css';
 import QuizApp from "./components/QuizApp";
+import "./App.css";
 import Header from "./components/Header";
 
-cosnt App = () => {
+const App = () => {
   return (
-    <main>
-      <Header/>
-<QuizApp/>
-    </main>
+    <>
+      <Header />
+      <QuizApp />
+    </>
   );
-}
+};
 
 export default App;
