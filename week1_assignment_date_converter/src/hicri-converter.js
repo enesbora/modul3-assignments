@@ -6,7 +6,5 @@ function hicriConverter(year) {
   );
 }
 
-// eski modul sistemi ile fonksiyonlarimizi export ettik
-module.exports = {
-  hicriToMiladi: hicriConverter,
-};
+
+module.exports = hicriConverter;

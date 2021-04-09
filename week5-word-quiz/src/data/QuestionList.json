@@ -1,0 +1,75 @@
+[
+    {
+      "question": "übertragen",
+      "correctAnswer": "aktarmak",
+      "answer" :["abartmak","bakmak", "kusmak"]
+
+    },
+    {
+        "question": "lösen",
+        "correctAnswer": "cözmek",
+        "answer" :["kaybetnek","silmek", "bakmak"]
+
+  
+      },
+      {
+        "question": "fragen",
+        "correctAnswer": "sormak",
+        "answer" :["cevaplamak","acmak", "kacmak"]
+  
+      },
+      {
+        "question": "lesen",
+        "correctAnswer": "okumak",
+        "answer" :["konusmak","seslenmek", "bagirmak"]
+  
+      },
+      {
+        "question": "enschieden",
+        "correctAnswer": "karar vermek",
+        "answer" :["denemek","secmek", "toplamak"]
+  
+      },
+      {
+        "question": "bringen",
+        "correctAnswer": "getirmek",
+        "answer" :["satin almak","almak", "birakmak"]
+  
+      },
+      {
+        "question": "hören",
+        "correctAnswer": "duymak",
+        "answer" :["okumak","yemek", "gelmek"]
+  
+      },
+      {
+        "question": "kaufen",
+        "correctAnswer": "satin almak",
+        "answer" :["almak","satmak", "getirmek"]
+  
+      },
+      {
+        "question": "sitzen",
+        "correctAnswer": "oturmak",
+        "answer" :["ayakta durmak","yatmak", "bakmak"]
+  
+      },
+      {
+        "question": "beobachten",
+        "correctAnswer": "gözlemlemek",
+        "answer" :["basarmak","bakmak", "bagirmak"]
+  
+      },
+      {
+        "question": "antworten",
+        "correctAnswer": "cevaplamak",
+        "answer" :["sormak","bulmak", "okumak"]
+  
+      },
+      {
+        "question": "arbeiten",
+        "correctAnswer": "calismak",
+        "answer" :["anlamak","yakinmak", "düsünmek"]
+  
+      }
+  ]

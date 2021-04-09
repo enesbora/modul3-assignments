@@ -6,15 +6,20 @@
  */
 
 // src'deki fonksiyonlarimizi kullanabilmemiz icin hicri-converter.js ve miladi-converter.js'nin gerekli oldugunu require ile ifade ettik
-const {
-  hicriToMiladi,
-  miladiToHicri,
-} = require("src/miladi-converter", "src/hicri-converter");
-const converter = require("src/miladi-converter", "src/hicri-converter");
+// const {
+//   hicriToMiladi,
+//   miladiToHicri,
+// } = require("src/miladi-converter", "src/hicri-converter");
+// const converter = require("src/miladi-converter", "src/hicri-converter");
+
+const hicriConverter = require('./src/hicri-converter');
+
+const miladiConverter = require('./src/miladi-converter');
+
 
 // birer örnekle fonksiyonlarimizi cagirdik ve dogru calistiklarini gözlemledik
-converter.hicriToMiladi(3);
-converter.miladiToHicri(1984);
+hicriConverter(3);
+miladiConverter(1984);
 
-hicriToMiladi();
-miladiToHicri();
+// hicriToMiladi();
+// miladiToHicri();
