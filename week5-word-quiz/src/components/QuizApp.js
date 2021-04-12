@@ -3,7 +3,7 @@ import { useState } from "react";
 import QuestionList from "../data/QuestionList.json";
 import Quiz from "./Quiz";
 import Result from "./Result";
-import "./Question.css";
+//import "./Question.css";
 
 const QuizApp = () => {
   const numberOfQuestions = 10;

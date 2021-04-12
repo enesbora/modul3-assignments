@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Result.css";
+//import "./Result.css";
 
 const Result = ({score, back}) => {
     return<div className="result">

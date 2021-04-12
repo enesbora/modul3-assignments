@@ -1,7 +1,7 @@
 import React from "react";
 import Question from "./Question";
 import AnswerList from "./AnswerList";
-import "./Quiz.css";
+//import "./Quiz.css";
 
 const Quiz = ({
   questionList,
